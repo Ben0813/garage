@@ -1,0 +1,15 @@
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Dependency directories
+node_modules
+
+# IDE / Editor directories
+.idea
+.vscode
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
