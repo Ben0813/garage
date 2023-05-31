@@ -5,26 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebec3170-53e0-4d5e-8406-d728940fc570" name="Changes" comment="functional backup">
-      <change afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/20230527143918-create-user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/20230527144050-create-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/20230527145006-create-vehicle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/20230527145425-create-testimonial.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/testimonial.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/vehicle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/middlewares.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/testimonials.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/vehicles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seeders/seed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/assets/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/assets/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/Form.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/OpeningHours.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/Services.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/Testimonials.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/TheWelcome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/Vehicles.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/WelcomeItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/icons/IconCommunity.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/icons/IconDocumentation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/icons/IconEcosystem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/icons/IconSupport.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/components/icons/IconTooling.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuegarage/vite.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +47,15 @@
       <list>
         <option value="package.json" />
         <option value="JavaScript File" />
+        <option value="Vue Composition API Component" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QNaNy8nyUbl4ANYKdC6fr6ezkF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -61,13 +76,21 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/back" />
+      <recent name="$PROJECT_DIR$/seeders" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,7 +101,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685196456966</updated>
-      <workItem from="1685196458495" duration="21565000" />
+      <workItem from="1685196458495" duration="23488000" />
+      <workItem from="1685397323049" duration="713000" />
+      <workItem from="1685479719582" duration="3070000" />
+      <workItem from="1685482923346" duration="1000" />
+      <workItem from="1685483757792" duration="2134000" />
+      <workItem from="1685565152997" duration="8268000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1685196512899</created>
@@ -94,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685197218543</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="functional backup">
+      <created>1685395599911</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685395599911</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

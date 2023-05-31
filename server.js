@@ -43,6 +43,27 @@ app.use('/services', servicesRouter);
 app.use('/testimonials', testimonialsRouter);
 app.use('/vehicles', vehiclesRouter);
 
+app.post('/login', passport.authenticate('local', {
+    successRedirect: '/users',
+    failureRedirect: '/login',
+}));
+
+app.get('/logout', (req, res) => {
+    req.logout();
+    res.redirect('/');
+});
+
+app.get('/', (req, res) => {
+    res.send('Welcome to our API');
+});
+
+app.use(function(err, req, res, next) {
+    console.error(err.stack);
+    res.status(500);
+    res.json({ error: err.message });
+});
+
+
 app.listen(3000, () => console.log('Server started on port 3000'));
 
 
